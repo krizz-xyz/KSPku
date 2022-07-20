@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="5dp" >
+
+        <RelativeLayout
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:padding="0px">        
+
+            <TextView
+                android:id="@+id/tglPinjaman"
+                android:layout_width="wrap_content"
+        	    android:layout_height="wrap_content"
+        	    android:layout_alignParentLeft="true"
+        	    android:layout_alignParentTop="true"
+        	    android:layout_toLeftOf="@+id/nilaiPinjaman"
+        	    android:gravity="left"
+        	    android:text="Tanggal"
+        	    android:textColor="#dc6800"
+        	    android:textSize="15sp"
+        	    android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/nilaiPinjaman"
+                android:layout_width="120sp"
+        	    android:layout_height="wrap_content"
+        	    android:layout_alignParentTop="true"
+        	    android:layout_centerHorizontal="true"
+        	    android:gravity="right"
+        	    android:text="Pinjaman"
+        	    android:textColor="#dc0044"
+        	    android:textSize="15sp"
+        	    android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/ttlAngsuran"
+                android:layout_width="wrap_content"
+        		    android:layout_height="wrap_content"
+        		    android:layout_alignParentRight="true"
+        		    android:layout_centerVertical="true"
+        		    android:layout_toRightOf="@+id/nilaiPinjaman"
+        		    android:gravity="right"
+        		    android:text="Ttl Angs"
+        		    android:textColor="#ff00ff"
+        		    android:textSize="15sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="0px" >
+
+            <TextView
+                android:id="@+id/namaAnggota"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@+id/angsKe"
+                android:gravity="left"
+                android:text="Nama"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/angsKe"
+                android:layout_width="120sp"
+        	    android:layout_height="wrap_content"
+        	    android:layout_alignParentTop="true"
+        	    android:layout_centerHorizontal="true"
+        	    android:gravity="right"
+        	    android:text="Angs Ke"
+        	    android:textColor="#338800"
+        	    android:textSize="15sp"
+        	    android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/sisaPinjaman"
+                android:layout_width="wrap_content"
+        	    android:layout_height="wrap_content"
+        	    android:layout_alignParentRight="true"
+        	    android:layout_alignParentTop="true"
+        	    android:layout_toRightOf="@+id/angsKe"
+        	    android:gravity="right"
+        	    android:text="Sisa Pinj"
+        	    android:textColor="#0000ff"
+        	    android:textSize="15sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

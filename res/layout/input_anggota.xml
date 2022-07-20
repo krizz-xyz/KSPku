@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/inputTextAnggotaNama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Isikan Nama Anggota"
+                android:inputType="textCapWords" >
+
+                <requestFocus />
+            </EditText>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <EditText
+                    android:id="@+id/inputTextAnggotaKode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Isikan Kode Anggota" />
+
+                <Button
+                    android:id="@+id/buttonScan"
+                    android:layout_width="98dp"
+                    android:layout_height="wrap_content"
+                    android:text="Scan" />
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/inputTextAnggotaAlamat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Isikan Alamat Anggota"
+                android:inputType="textCapWords" />
+
+            <EditText
+                android:id="@+id/inputTextAnggotaTelepon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Isikan Telepon Anggota"
+                android:inputType="number" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

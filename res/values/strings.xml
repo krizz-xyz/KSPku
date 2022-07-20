@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">KSP</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Sistem Informasi KSP</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_pengguna">Pengguna</string>
+    <string name="title_activity_anggota">Anggota</string>
+    <string name="title_activity_peminjaman">Peminjaman</string>
+    <string name="title_activity_cari_anggota">CariAnggota</string>
+    <string name="title_activity_bayar_angsuran">BayarAngsuran</string>
+
+</resources>

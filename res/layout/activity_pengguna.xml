@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Pengguna" >
+
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" />
+
+    <EditText
+        android:id="@+id/EditTextPenggunaNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/nama"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/nama"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Isikan Nama" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/EditTextPenggunaPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/EditTextPenggunaNama"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/EditTextPenggunaNama"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Isikan Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/EditTextPenggunaLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/EditTextPenggunaPassword"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/EditTextPenggunaPassword"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Isikan Level Pengguna" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/EditTextPenggunaLevel"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/EditTextPenggunaLevel" >
+
+        <Button
+            android:id="@+id/buttonPenggunaKeluar"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:text="Keluar" />
+
+        <Button
+            android:id="@+id/buttonPenggunaSimpan"
+            android:layout_width="139dp"
+            android:layout_height="wrap_content"
+            android:text="Simpan" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listViewPengguna"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/linearLayout1"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/linearLayout1" >
+    </ListView>
+
+</RelativeLayout>
