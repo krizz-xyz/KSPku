@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="5dp" >
+
+        <RelativeLayout
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:padding="0px">        
+
+            <TextView
+                android:id="@+id/tglTransaksi"
+                android:layout_width="wrap_content"
+        	    android:layout_height="wrap_content"
+        	    android:layout_alignParentLeft="true"
+        	    android:layout_alignParentTop="true"
+        	    android:layout_toLeftOf="@+id/noTransaksi"
+        	    android:gravity="left"
+        	    android:text="Tanggal"
+        	    android:textColor="#dc6800"
+        	    android:textSize="15sp"
+        	    android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/noTransaksi"
+                android:layout_width="120sp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:gravity="left"
+                android:text="No Transaksi"
+                android:textColor="#dc0044"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/kodeBarang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/noTransaksi"
+                android:gravity="right"
+                android:text="Kd Barang"
+                android:textColor="#ff00ff"
+                android:textSize="15sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="0px" >
+
+            <TextView
+                android:id="@+id/kdPelanggan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@+id/namaPelanggan"
+                android:gravity="left"
+                android:text="kdPelanggan"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/jumlah"
+                android:layout_width="120sp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:gravity="left"
+                android:text="Jumlah"
+                android:textColor="#338800"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/jumlah"
+                android:gravity="right"
+                android:text="Total"
+                android:textColor="#0000ff"
+                android:textSize="15sp" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

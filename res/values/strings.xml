@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PBP</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Sistem Informasi PBP!</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_pengguna">Pengguna</string>
+    <string name="title_activity_pelanggan">Pelanggan</string>
+    <string name="title_activity_transaksi">Transaksi</string>
+    <string name="title_activity_cari_pelanggan">CariPelanggan</string>
+    <string name="title_activity_barang">Barang</string>
+    <string name="title_activity_setting">Setting</string>
+
+</resources>

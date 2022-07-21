@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pbp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.pbp.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.pbp.Login"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name="com.example.pbp.Pengguna"
+            android:label="@string/title_activity_pengguna" >
+        </activity>
+        <activity
+            android:name="com.example.pbp.Pelanggan"
+            android:label="@string/title_activity_pelanggan" >
+        </activity>
+        <activity
+            android:name="com.example.pbp.Transaksi"
+            android:label="@string/title_activity_transaksi" >
+        </activity>
+        <activity
+            android:name="com.example.pbp.CariPelanggan"
+            android:label="@string/title_activity_cari_pelanggan" >
+        </activity>
+        <activity
+            android:name="com.example.pbp.Barang"
+            android:label="@string/title_activity_barang" >
+        </activity>
+        <activity
+            android:name="com.example.pbp.Setting"
+            android:label="@string/title_activity_setting" >
+        </activity>
+    </application>
+
+</manifest>
